@@ -10,5 +10,5 @@ print(lista)
 
 print("--------------------------------------------------------------")
 
-lista.extend("GR")
+lista.extend(["Garza","Rios"])
 print(lista)
