@@ -2,13 +2,13 @@
 lista = ["Jean", "Carlos", "Salvador"]
 lista.append("Garza")
 print(lista)
-print("--------------------------------------------------------------")
+print("--------------------------------------------------------------------------------")
 
 
 lista.pop(3)
 print(lista)
 
-print("--------------------------------------------------------------")
+print("----------------------------------------------------------------------------------")
 
 lista.extend(["Garza","Rios"])
 print(lista)
@@ -17,9 +17,9 @@ print(lista)
 tupla= (10,100, 1000)
 print(tupla)
 
+print("------------------------------------------------------------------------------------")
 
-
-#3 EJEMPLOS DE DICCIONARIOS 
+print("3 EJEMPLOS DE DICCIONARIOS") 
 diccionario = {"a":1, "b":2, "c":3}
 v_items = diccionario.items()
 print(v_items)
@@ -33,3 +33,29 @@ print(v_keys)
 diccionario = {"a":1, "b":2, "c":3}
 v_valores = diccionario.values()
 print(v_valores)
+
+print("---------------------------------------------------------------------------------")
+
+print("3 EJEMPLOS DE CONJUNTOS")
+print("")
+print("1er EJEMPLO DE DICCIONARIOS .copy()") 
+conjunto=set([1,2,3,4])
+
+conjunto_copia=conjunto.copy()
+print(conjunto)
+print(conjunto_copia)
+
+print("")
+print("2do EJEMPLO DE DICCIONARIOS .add()")
+print(conjunto_copia)
+conjunto_copia.add(5) 
+print(conjunto_copia)
+
+print("")
+print("3er EJEMPLO DE DICCIONARIOS .clear()")
+conjunto_copia.clear()
+print(conjunto) 
+print(conjunto_copia)
+
+
+
