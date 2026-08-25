@@ -1,4 +1,4 @@
-#3 Ejemplos de listas con diferentes métodos 
+print("3 Ejemplos de listas con diferentes métodos") 
 lista = ["Jean", "Carlos", "Salvador"]
 lista.append("Garza")
 print(lista)
@@ -13,11 +13,17 @@ print("-------------------------------------------------------------------------
 lista.extend(["Garza","Rios"])
 print(lista)
 
-#3 EJEMPLOS DE TUPLAS CON DIFERENTES METODOS 
+print("------------------------------------------------------------------------------------")
+print("")
+
+print("3 EJEMPLOS DE TUPLAS CON DIFERENTES METODOS ")
 tupla= (10,100, 1000)
 print(tupla)
+print(tupla.count(100))
+print(tupla.index(100))
 
 print("------------------------------------------------------------------------------------")
+print("")
 
 print("3 EJEMPLOS DE DICCIONARIOS") 
 diccionario = {"a":1, "b":2, "c":3}
@@ -38,7 +44,7 @@ print("-------------------------------------------------------------------------
 
 print("3 EJEMPLOS DE CONJUNTOS")
 print("")
-print("1er EJEMPLO DE DICCIONARIOS .copy()") 
+print("1er EJEMPLO DE CONJUNTOS .copy()") 
 conjunto=set([1,2,3,4])
 
 conjunto_copia=conjunto.copy()
@@ -46,16 +52,13 @@ print(conjunto)
 print(conjunto_copia)
 
 print("")
-print("2do EJEMPLO DE DICCIONARIOS .add()")
+print("2do EJEMPLO DE CONJUNTOS .add()")
 print(conjunto_copia)
 conjunto_copia.add(5) 
 print(conjunto_copia)
 
 print("")
-print("3er EJEMPLO DE DICCIONARIOS .clear()")
+print("3er EJEMPLO DE CONJUNTOS .clear()")
 conjunto_copia.clear()
 print(conjunto) 
 print(conjunto_copia)
-
-
-
